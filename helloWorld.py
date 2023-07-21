@@ -64,7 +64,7 @@ while True:
     if add=="exit":
         break;
     elif add in words:
-        print("The word is already in the list")
+        print("This word is already in the list")
     else:
         words.append(add)
 print(words)
